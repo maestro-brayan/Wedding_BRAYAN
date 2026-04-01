@@ -31,17 +31,23 @@ header li{
     line-height: 3.2rem;
 
 }
+li:hover{
+    color:var(--txt-color) ;
+    text-decoration:underline;
+    text-decoration-color: aliceblue;
+}
+span:hover{
+    color: var(--txt-color);
+    text-shadow: 4px 0px 4px black;
+    scale: 2;
+}
 .block1{
-    margin:10rem ;
-    border: solid;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    margin-top:10rem ;
 }
 .block1 div{
      font-family: var(--montaga);
     font-weight: 400;
+    text-align: center;
 }
 
 .block1 h2{
@@ -51,6 +57,7 @@ header li{
 .block1 h1{
     font-size: 10.1rem;
 }
-.txt{
-    text-align: center;
+img{
+    width: 80%;
+    margin:6rem 16rem ;
 }
